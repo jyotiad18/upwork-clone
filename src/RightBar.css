@@ -1,0 +1,57 @@
+.rightBar {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	width: 150px;	
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin-left: auto;
+}
+
+.rightBar__myprofile {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+}
+.rightBar__myprofile > h5 {
+	margin-left: 20px;
+}
+
+.rightBar__visibilty {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.rightBar__visibiltyDetail {
+	margin-top: 10px;
+	display: flex;
+	justify-items: center;
+	align-items: center;		
+}
+.rightBar__searchIcon {
+	margin-right: 10px;
+}
+
+.rightBar__editIcon {
+	margin-left: auto;
+	color: green;
+}
+
+.rightBar__text {
+	font-size: 12px;
+	font-weight: 800;	
+}
+
+.rightBar__progressbar {
+	margin-top: 10px;	
+	padding: 1px;
+}
+
+.rightBar__visibiltyDetailGreen{
+	margin-top: 10px;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	color:green
+
+}

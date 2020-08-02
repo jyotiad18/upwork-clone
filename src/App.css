@@ -9,3 +9,7 @@
   padding-left: 15vw;
   padding-right: 15vw;
 }
+
+.app__maindetail {
+  display: flex;
+}

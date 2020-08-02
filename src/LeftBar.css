@@ -2,5 +2,21 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 20px;
-	max-width: 150px;
+	max-width: 200px;
+	padding-left:10px;
+	padding-bottom: 20px;
+}
+
+.leftBar__menu {
+	padding: 10px;	
+}
+
+.leftBar__title {
+	padding: 10px;	
+}
+
+.leftBar__title:hover {
+	background-color: white;
+	color:green;
+	border-left: 3px solid green;
 }
