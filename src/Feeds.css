@@ -1,10 +1,126 @@
 .feeds {
 	display: flex;
-	flex-direction: column;
-	height: 200px;
+	flex-direction: column;	
 	width: 70%;
 	margin-top: 20px;
-	border: 1px solid red;
-	background-color: wheat;
+	background-color: white;
 	box-shadow: 1px 2px 2px 2px lightgray;;
 }
+.feeds__sectionbottom,
+.feeds__sectiontop {
+	height: 30px;	
+	border-bottom: 1px solid  lightgrey;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.feeds__sectionbottom {
+	border-bottom: none !important;
+	height: 30px !important;
+}
+
+.feeds__myFeed {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.feeds__iconButton {	
+	color: green !important;
+	background-color: white !important;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 3) !important;
+}
+
+.feeds__button {	
+	color: green !important;	
+	background-color: white !important;	
+	font-weight: 700 !important;
+}
+
+.feeds__detail {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	border-bottom: 1px solid  lightgrey;
+}
+.feeds__header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.feeds__detailIcons .feeds__iconButton {
+	margin-left: 10px !important;
+}
+.feeds__headerTitle {
+	font-size: 1rem;
+	margin-top: 10px;
+}
+
+.feeds__description,
+.feeds__timeprice {
+	margin-top: 15px;
+	display: flex;	
+	font-size: 0.8rem;
+}
+.feeds__description {
+	font-size: .9rem !important;
+}
+.feeds__hourly {
+	font-weight: 800;
+}
+
+.feeds__languages {
+	margin-top: 15px;
+	display: flex;
+}
+
+.feeds__language {
+	background-color: lightgrey;
+	margin-right: 10px;
+	padding: 5px;
+	font-size: 0.8rem;
+	border-radius: 5px;
+}
+
+.feeds__verified {
+	margin-top: 15px;
+	display: flex;	
+	align-items: center;	
+}
+
+.feeds__rates {
+	display: flex;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.feeds__verifiedIcon {
+	color: blue;
+}
+.feeds__stars {
+	margin-left: 20px;
+}
+
+.feeds__star {
+	color: green;	
+}
+
+.feeds__place {
+	display: flex;	
+	padding-left: 10px;	
+}
+
+.feeds__place > h6 {
+	margin-top: 5px;
+}
+
+.feeds__duration {
+	display: flex;
+	font-size: 1.1rem !important;	
+	align-items: center;	
+}
+.feeds__duration > h6 {
+   margin-left : 2px;
+}
+
+
