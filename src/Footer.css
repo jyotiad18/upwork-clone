@@ -1,0 +1,40 @@
+.footer {
+	margin-top: 30px;
+	height: 400px;
+	background-color: #1d4354;
+	display: flex;
+	bottom: 0;
+	flex-direction: column;
+	color: white;	
+	padding-left: 15vw;
+	padding-right: 15vw;
+}
+
+.footer__menus {
+	display: flex;
+	margin-top: 70px;	
+	font-weight: 700;
+	justify-content: space-evenly;
+}
+
+.footer__menuTitle {
+	padding-bottom: 15px;
+}
+
+.footer__copywrite {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.footer__icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.footer__iconTwo
+.footer__iconThree {
+	margin-left: 10px;
+}

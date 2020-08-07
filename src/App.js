@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import LearnInfo from './LearnInfo';
-import Search from './Search';
 import LeftBar from './LeftBar';
 import RightBar from './RightBar';
 import Feeds from './Feeds'
+import Footer from './Footer';
+import Search from "./Search";
 
 function App() {
   return (
@@ -13,12 +14,14 @@ function App() {
       <Header />
       <div className="app__main">     
         <LearnInfo></LearnInfo> 
-        <div className="app__maindetail">
-          <LeftBar></LeftBar> 
-          <Feeds></Feeds> 
+        <Search></Search>
+        <div className="app__maindetail">          
+          <LeftBar></LeftBar>                     
+            <Feeds></Feeds>           
           <RightBar></RightBar>    
-        </div>
+        </div>     
       </div>
+      <Footer></Footer>
     </div>
   );
 }

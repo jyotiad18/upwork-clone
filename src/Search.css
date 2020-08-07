@@ -3,13 +3,9 @@
 	margin-top: 20px;
 	justify-items: center;	
 	align-content: center;      
-    align-items: center;
-}
-
-.search > h3 {
-	width: 15%;
-	font-weight: 500;
-	justify-items: center;	
+	align-items: center;
+	padding-left: 11vw;
+	padding-right: 15vw;
 }
 
 .search__detail {
@@ -27,7 +23,7 @@
 	display: flex;
 	border: 1px solid green;
 	border-radius: 5px;
-	width: 600px;
+	width: 680px;
 	align-items: center;
 	background-color: white;
 }

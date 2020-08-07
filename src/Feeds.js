@@ -13,14 +13,16 @@ import { initData } from './init';
 function Feeds() {	
 	const [feeds, setFeeds] = useState(initData);
 
-	return (
-		<div className="feeds">
+	return (		
+		<div className="feeds">			
 			<section className="feeds__sectiontop">
-				<h1 className="feeds__myFeed">My Feed</h1>
-				<IconButton className="feeds__iconButton">
-					<MoreHorizRoundedIcon						
-					></MoreHorizRoundedIcon>
-				</IconButton>				
+				<h1 className="feeds__myFeed">My Feed</h1>	
+				{ /*
+					<IconButton className="feeds__iconButton">
+						<MoreHorizRoundedIcon fontSize='large'></MoreHorizRoundedIcon>
+				</IconButton>
+				*/
+				}
 			</section>
 			{
 				feeds?.map((feed) => (
